@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"> -->
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Gerson Sousa</div>
+            <ul class="nav-menu">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#imoveis">Imóveis</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <a href="https://api.whatsapp.com/send?phone=558387911119&text=Ol%C3%A1%21+Gostaria+de+ver+um+im%C3%B3vel+com+voc%C3%AA%21" target="_blank" rel="noopener noreferrer" class="nav-cta">WhatsApp</a>
+        </div>
+    </nav>
+
+    <header id="inicio">
+        <div>
+            <img src="Imagens/Logo.png" class="logo">
+            <h1>Gerson Sousa</h1>
+            <p>Especialista em transações Imobiliárias</p>
+            <p>Trazendo o seu sonho de casa própria para a realidade</p>
+
+            <a href="https://api.whatsapp.com/send?phone=558387911119&text=Ol%C3%A1%21+Gostaria+de+ver+um+im%C3%B3vel+com+voc%C3%AA%21" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Falar no WhatsApp</a>
+            <a href="https://www.instagram.com/gerson_sousa_corretor_imoveis/" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Instagram</a>
+        </div>
+    </header>
+
+    <section class="fade about" id="sobre">
+        <div>
+            <img src="Imagens/Gerson.png"
+                alt="Corretor Gerson Sousa" style="background:transparent;">
+        </div>
+        <div class="about-text">
+            <h3>Sobre Gerson Sousa</h3>
+            <p>
+                Com atuação focada no mercado imobiliário de alto padrão em João Pessoa, Gerson Sousa se destaca pela
+                combinação de estratégia, visão de mercado e atendimento exclusivo.
+            </p>
+            <p>
+                Seu objetivo vai além de vender imóveis: é entender o momento de vida de cada cliente e conectar
+                oportunidades que realmente façam sentido — seja para morar, investir ou valorizar patrimônio.
+            </p>
+            <p>
+                Com abordagem transparente e orientada a resultados, Gerson entrega uma experiência segura, ágil e
+                diferenciada em cada negociação.
+            </p>
+            <a href="https://api.whatsapp.com/send?phone=558387911119&text=Ol%C3%A1%21+Gostaria+de+ver+um+im%C3%B3vel+com+voc%C3%AA%21" class="btn btn-primary">Falar diretamente com o corretor</a>
+        </div>
+    </section>
+
+    <section class="fade" id="imoveis">
+        <h2 class="title"><span></span>Imóveis em Destaque</h2>
+        <div class="grid">
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c">
+                <div class="card-content">
+                    <h3>Apartamento Luxo</h3>
+                    <p>Vista para o mar • 3 suítes</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1600585152220-90363fe7e115">
+                <div class="card-content">
+                    <h3>Casa Moderna</h3>
+                    <p>Piscina • Área gourmet</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4">
+                <div class="card-content">
+                    <h3>Flat Investimento</h3>
+                    <p>Alta rentabilidade</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="fade" id="depoimentos">
+        <h2 class="title">Depoimentos</h2>
+        <div class="grid">
+            <div class="testimonial">“Experiência impecável do início ao fim.”</div>
+            <div class="testimonial">“Profissional de alto nível, recomendo!”</div>
+            <div class="testimonial">“Consegui um ótimo investimento graças a ele.”</div>
+        </div>
+    </section>
+
+    <section class="fade" id="contato">
+        <h2 class="title"><span></span>Receba oportunidades exclusivas</h2>
+
+        <form id="leadForm">
+            <input type="text" placeholder="Seu nome" required>
+            <input type="email" placeholder="Seu email" required>
+            <input type="tel" placeholder="Seu telefone" required>
+            <textarea placeholder="Que tipo de imóvel você procura?"></textarea>
+            <button class="btn btn-primary">Quero receber ofertas</button>
+        </form>
+
+    </section>
+
+    <footer>
+        © 2026 Gerson Sousa
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
